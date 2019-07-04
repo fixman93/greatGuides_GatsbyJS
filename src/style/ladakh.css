@@ -1,0 +1,100 @@
+body {
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 90px;
+  position: relative;
+}
+
+.hero .content {
+  padding: 170px 0 170px;
+}
+
+.hero .content h1 {
+  color: #fff;
+  font-family: "Abril Fatface", cursive;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 73px;
+
+}
+
+.hero .content h3 {
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.hero .content p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 40px;
+  margin-top: 16px;
+  max-width: 488px;
+  opacity: 0.9;
+}
+
+.hero .header {
+  padding-top: 24px;
+}
+
+
+/* container */
+
+.container {
+  margin: auto;
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.flex {
+  display: flex;
+}
+.flex.justify-content {
+  justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* end of container */
+
+@media (max-width: 991px) {
+  .hero .content {
+    padding: 113px 0 113px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero .content {
+    padding: 97px 0 98px;
+  }
+  .hero .content {
+    font-size: 44px;
+    line-height: 52px;
+  }
+}
+
+

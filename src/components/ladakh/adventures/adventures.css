@@ -1,0 +1,424 @@
+/* buttons */
+
+.btn {
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.btn.white-btn {
+  background: #fff;
+  color: #ff9514;
+  font-size: 14px;
+  font-weight: 600;
+  height: 30px;
+  line-height: 18px;
+  padding: 5px 12px;
+  position: relative;
+  top: 5px;
+}
+
+.btn.orange-btn {
+  background-color: #ff9514;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  line-height: 19px;
+  padding: 15.5px 25px;
+  text-transform: uppercase;
+  width: 100%;
+  margin: .25rem;
+}
+
+.btn.blur-btn {
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #fff;
+}
+
+@media (max-width: 576px) {
+  .btn.white-btn {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+  }
+}
+
+/* end of buttons */
+
+
+.row {
+  display: flex;
+  flex-flow: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.adventures {
+  padding-bottom: 120px;
+  padding-top: 30px;
+  background-color: transparent;
+  margin-top: -130px;
+  position: relative;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.adventures:before {
+  content: "";
+  background: #f8f8f9;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 130px;
+  z-index: -1;
+}
+.adventures .adventures-item {
+  padding: 0 15px;
+  width: 50%;
+}
+.adventures .adventures-item .main-img {
+  border-radius: 6px;
+  max-width: 100%;
+}
+
+.adventures .adventures-item .status {
+  color: #ff9514;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  line-height: 18px;
+  margin-bottom: 6px;
+  margin-top: 18px;
+  text-transform: uppercase;
+}
+.adventures .title {
+  margin-bottom: 60px;
+}
+
+.adventures-item h2 {
+  color: #333;
+  font-family: "Source Sans Pro";
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 38px;
+  margin-bottom: 8px;
+}
+
+  .place {
+    color: #666;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+
+  .place img {
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  .description {
+    margin-bottom: 20px;
+  }
+
+  .description a {
+    color: #ff9514;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .description p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 8px;
+    margin-top: 9px;
+  }
+
+.adventures .review {
+  align-items: center;
+  background-color: #f8f8f9;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+}
+
+.adventures .review img {
+  margin-right: 15px;
+  vertical-align: middle;
+  width: 42px;
+}
+
+
+
+.adventures .review .user b {
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.shop {
+  border-radius: 6px;
+  box-shadow: 0 16px 36px 0 rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0;
+  padding: 30px;
+}
+
+.shop b {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.shop .regular-price {
+  color: #666;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+.shop .promotional-price {
+  color: #333;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.shop .promotional-price span {
+  color: #ff9514;
+}
+
+.shop .book-now .orange-btn {
+  padding: 15.5px 10px;
+}
+
+.destination-visited {
+  margin-bottom: 30px;
+}
+
+.destination-visited ul {
+  list-style: none;
+}
+
+.destination-visited h4 {
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 0 0 15px;
+}
+
+.destination-visited li {
+  color: #333;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.destination-visited li img {
+  margin-right: 15px;
+}
+
+.rating li {
+  color: #666;
+  display: inline-block;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  line-height: 18px;
+  margin-right: 6px;
+}
+
+.rating li .fa-circle {
+  font-size: 4px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+
+
+.ladakh.adventures .adventures-item {
+  padding: 0 15px;
+  width: 33.333%;
+  margin-bottom: 30px;
+}
+.ladakh.adventures .adventures-item h2 {
+  font-size: 20px;
+}
+
+.ladakh.adventures .adventures-item .main-img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 380px;
+  object-fit: cover;
+  width: 100%;
+  }
+
+.ladakh.adventures .adventures-item .status {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+
+.ladakh.adventures .box {
+  padding: 21px 20px;
+  background: #fff;
+}
+
+.ladakh.adventures .shop {
+  align-items: center;
+  border-radius: 0;
+  border-top: 1px solid hsla(0, 0%, 0%, 0.1);
+  box-shadow: none;
+  padding: 0;
+  padding-top: 20px;
+}
+
+.ladakh.adventures .place {
+  margin-bottom: 12px;
+}
+
+.ladakh.adventures .regular-price span {
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.ladakh .description p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 9px;
+}
+
+.imageInfo {
+  position: relative;
+}
+
+.imageInfo .review {
+  background: transparent;
+  border-radius: 0;
+  bottom: 0;
+  justify-content: inherit;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.imageInfo .review img {
+  border-radius: 50%;
+}
+
+.imageInfo .rating b {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+
+.imageInfo .rating li {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .ladakh.adventures .adventures-item {
+    margin: 0 auto 40px;
+    max-width: 330px;
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .ladakh.adventures .adventures-item {
+    max-width: 100%;
+    width: 100%;
+  }
+  .ladakh .shop .regular-price {
+    width: auto;
+  }
+  .ladakh .shop .book-now {
+    height: auto;
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+}
+
+
+  @media (max-width: 991px) {
+    .adventures {
+      padding-bottom: 60px;
+      padding-top: 60px;
+    }
+    .adventures .adventures-item {
+      margin: 0 auto 40px;
+      width: 100%;
+      max-width: 100%;
+    }
+    .adventures-item h2 {
+      font-size: 24px;
+      line-height: 31px;
+    }
+  }
+
+
+  @media (max-width: 576px) {
+    .adventures {
+      padding-bottom: 40px;
+      padding-top: 40px;
+    }
+    .adventures .title {
+      margin-bottom: 30px;
+    }
+    .review {
+      flex-flow: wrap;
+      padding: 15px 20px 0;
+    }
+    .review .user {
+      width: 100%;
+    }
+    .review .user b {
+      position: relative;
+      top: -5px;
+    }
+    .shop {
+      flex-flow: wrap;
+      padding: 20px 15px;
+      position: relative;
+    }
+    .shop .regular-price {
+      margin-bottom: 15px;
+      width: 100%;
+    }
+    .shop .promotional-price {
+      width: 100%;
+    }
+    .shop .book-now {
+      height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .book-now button {
+      border-bottom-right-radius: 6px;
+      border-radius: 0;
+      border-top-right-radius: 6px;
+      height: 100%;
+    }
+    .rating {
+      left: 56px;
+      position: relative;
+      top: -21px;
+    }
+  }
