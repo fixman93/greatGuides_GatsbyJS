@@ -262,6 +262,7 @@
   height: 380px;
   object-fit: cover;
   width: 100%;
+  margin-bottom: 0;
   }
 
 .ladakh.adventures .adventures-item .status {

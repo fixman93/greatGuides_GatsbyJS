@@ -3,6 +3,7 @@ import Hero from "../components/ladakh/hero/hero"
 import SEO from "../components/seo"
 import Adventures from "../components/ladakh/adventures/adventures"
 import Questions from "../components/ladakh/questions/questions"
+import Footer from "../components/ladakh/footer/footer"
 import "../style/ladakh.css"
 const SecondPage = () => (
   <div>
@@ -14,6 +15,7 @@ const SecondPage = () => (
     />
     <Adventures />
     <Questions />
+    <Footer />
   </div>
 )
 

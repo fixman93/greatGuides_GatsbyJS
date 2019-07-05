@@ -1,0 +1,15 @@
+.ladakh.hero .content {
+  margin: auto;
+  max-width: 740px;
+  text-align: center;
+  padding: 40px 0 90px;
+}
+
+.hero.ladakh .content h1 {
+  max-width: 500px;
+  margin: auto;
+}
+
+.hero.ladakh .content p {
+  max-width: 1060px;
+}

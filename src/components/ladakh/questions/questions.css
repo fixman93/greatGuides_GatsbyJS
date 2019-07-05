@@ -65,6 +65,8 @@
   font-size: 38px;
   line-height: 51px;
   text-align: center;
+  font-family: "Abril Fatface", cursive;
+  font-weight: normal;
 }
 
 .smallDescription {

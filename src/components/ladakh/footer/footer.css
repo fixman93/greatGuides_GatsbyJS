@@ -1,0 +1,45 @@
+.footer {
+  padding: 24px 0;
+}
+
+
+.footer .col {
+  width: 33.333%;
+}
+
+.footer .social-icons {
+  text-align: center;
+}
+
+.footer  ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer .copyright {
+  color: #666;
+  font-size: 12px;
+  line-height: 19px;
+  text-align: right;
+}
+
+@media (max-width: 576px) {
+  .footer .flex {
+    flex-flow: wrap;
+  }
+  .footer .col:last-child {
+    width: 100%;
+  }
+  .footer .social-icons {
+    text-align: right;
+    width: 63%;
+  }
+  .footer .copyright {
+    text-align: left;
+  }
+}
