@@ -9,10 +9,8 @@ import heroImage from "../../../images/hero.png"
 
 import "./hero.css"
 
-let bgImage = {
-  backgroundImage: 'url(' + heroImage + ')',
-};
-function Hero() {
+
+function Hero({ bgImage, title, description, special }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -26,14 +24,17 @@ function Hero() {
       }
     `
   )
+  let bgImages = {
+    backgroundImage: 'url(' + bgImage + ')',
+  };
   return (
-    <div className='hero ladakh' style={bgImage}>
+    <div className='hero ladakh' style={bgImages}>
       <Container>
         <Header />
         <div className='content'>
-          <h3>SUMMER SPECIAL:</h3>
-          <h1>{site.siteMetadata.title}</h1>
-          <p>{site.siteMetadata.description}</p>
+          <h3>{special}</h3>
+          <h1>{title}</h1>
+          <p>{description}</p>
         </div>
       </Container>
     </div>

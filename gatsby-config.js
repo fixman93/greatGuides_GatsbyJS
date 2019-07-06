@@ -76,6 +76,80 @@ module.exports = {
           guideImage: `https://s3.amazonaws.com/greatguides-prod-media/Guide+Images/Tundup+Stanzin/about-1.jpg`
         }
       }
+    ],
+    peruItems: [
+      {
+        item: {
+          status: {
+            category: `category`,
+            date: `14 Days`
+          },
+          title: `Sham Valley Trek`,
+          location: `Ladakh India`,
+          userName: `Stanzin Tundup`,
+          description1: `The Sham Valley trek is a tranquil, easy trek that offers a blend of  mesmerizing landscape and typical Ladakhi lifestyle. The highlights of this route include three stunning mountain passes, and a beautiful valley of juniper and cedar groves near Hemis Skukpachan village. As we trek through various villages, we will experience the typical Ladakhi lifestyle. Sham Valley trek spreads across the ancient land of Sham Kingdom of Ladakh.`,
+          show: {
+            regular_price: `$1700 / person`,
+            promotional_price: `$1500 / person`
+          },
+          rating: {
+            stars: `4.5 stars`,
+            review: `2780`,
+            adventures: `6`
+          },
+          mainImage: `https://i.ibb.co/p4v5y09/home-3.jpg`,
+          link: `/newAdvnDetail/cjtaizbeq0guv0b76fxy6uztb`,
+          guideImage: `https://s3.amazonaws.com/greatguides-prod-media/Guide+Images/Tundup+Stanzin/about-1.jpg`
+        }
+      },
+      {
+        item: {
+          status: {
+            category: `category`,
+            date: `14 Days`
+          },
+          title: `Sham Valley Trek`,
+          location: `Ladakh India`,
+          userName: `Stanzin Tundup`,
+          description1: `The Sham Valley trek is a tranquil, easy trek that offers a blend of  mesmerizing landscape and typical Ladakhi lifestyle. The highlights of this route include three stunning mountain passes, and a beautiful valley of juniper and cedar groves near Hemis Skukpachan village. As we trek through various villages, we will experience the typical Ladakhi lifestyle. Sham Valley trek spreads across the ancient land of Sham Kingdom of Ladakh.`,
+          show: {
+            regular_price: `$1700 / person`,
+            promotional_price: `$1500 / person`
+          },
+          rating: {
+            stars: `4.5 stars`,
+            review: `2780`,
+            adventures: `6`
+          },
+          mainImage: `https://s3.amazonaws.com/greatguides-prod-media/Trips/Sham+Valley/ShamValley1.jpg`,
+          link: `/newAdvnDetail/cjtaizbeq0guv0b76fxy6uztb`,
+          guideImage: `https://s3.amazonaws.com/greatguides-prod-media/Guide+Images/Tundup+Stanzin/about-1.jpg`
+        }
+      },
+      {
+        item: {
+          status: {
+            category: `category`,
+            date: `14 Days`
+          },
+          title: `Sham Valley Trek`,
+          location: `Ladakh India`,
+          userName: `Stanzin Tundup`,
+          description1: `The Sham Valley trek is a tranquil, easy trek that offers a blend of  mesmerizing landscape and typical Ladakhi lifestyle. The highlights of this route include three stunning mountain passes, and a beautiful valley of juniper and cedar groves near Hemis Skukpachan village. As we trek through various villages, we will experience the typical Ladakhi lifestyle. Sham Valley trek spreads across the ancient land of Sham Kingdom of Ladakh.`,
+          show: {
+            regular_price: `$1700 / person`,
+            promotional_price: `$1500 / person`
+          },
+          rating: {
+            stars: `4.5 stars`,
+            review: `2780`,
+            adventures: `6`
+          },
+          mainImage: `https://s3.amazonaws.com/greatguides-prod-media/Trips/Snow+Leopard/shutterstock_1225568932.jpg`,
+          link: `/newAdvnDetail/cjtaizbeq0guv0b76fxy6uztb`,
+          guideImage: `https://s3.amazonaws.com/greatguides-prod-media/Guide+Images/Tundup+Stanzin/about-1.jpg`
+        }
+      }
     ]
   },
   plugins: [
