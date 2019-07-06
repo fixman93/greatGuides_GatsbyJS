@@ -7,7 +7,7 @@ import Footer from "../components/ladakh/footer/footer"
 import "../style/ladakh.css"
 const SecondPage = () => (
   <div>
-    <SEO title="Peru" />
+    <SEO title="African Safari" />
     <Hero
       special="SUMMER SPECIAL:"
       title="Visit Peru with Juan CCaihuari"

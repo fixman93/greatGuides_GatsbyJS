@@ -5,8 +5,6 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Container from "../../../common/container/container"
 
-import heroImage from "../../../images/hero.png"
-
 import "./hero.css"
 
 
