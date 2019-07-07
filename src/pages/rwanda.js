@@ -11,7 +11,7 @@ const SecondPage = () => (
     <Hero
       special="SUMMER SPECIAL:"
       title="Visit Rwanda this summer"
-      bgImage="https://s3.amazonaws.com/greatguides-prod-media/Trips/Lares+Trek+Peru/20181005_145258+Med.jpeg"
+      bgImage="https://s3.amazonaws.com/greatguides-prod-media/Trips/Rwanda/10+Days+Remarkable+Rwanda/10DayRwanda1_Medium.jpg"
       description="Rwanda known as the land of a thousand hills is the newest African destination. From Mountain gorillas at the Volcanoes national park to rwandese cultural activities, Rwanda has a lot to offer. Greg Bakunzi, your guide in Rwanda has focussed on the endangered mountain gorillas that reside in the Virunga Massif, a chain of eight volcanic mountains that straddle Rwanda, Uganda and the Democratic Republic of Congo."
     />
     <Adventures />
