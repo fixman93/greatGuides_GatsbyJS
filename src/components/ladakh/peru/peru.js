@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Container from '../../../common/container/Container';
-import AdventuresItem from './adventuresItem';
+import AdventuresItem from './peruItem';
 import { useStaticQuery, graphql } from "gatsby"
 
 
@@ -37,6 +37,7 @@ const Adventures = () => {
                 }
                 mainImage
                 guideImage
+                link
               }
             }
           }
@@ -53,7 +54,7 @@ const Adventures = () => {
             return (
               <AdventuresItem
                 key={i}
-                guideImage={items.item.mainImage}
+                mainImage={items.item.mainImage}
                 itemInfo={items}
               />
             )

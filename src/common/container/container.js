@@ -9,7 +9,12 @@ class Container extends Component {
 }
 
 Container.propTypes = {
-  children: PropTypes.array,
+  children: PropTypes.array
 };
+
+Container.defaultProps = {
+  children: [],
+}
+
 
 export default Container;

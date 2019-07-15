@@ -8,8 +8,45 @@
 .hero.ladakh .content h1 {
   max-width: 500px;
   margin: auto;
+  color: #ff9727;
+  /*color: #1a2e81;*/
+  color: #f6f6f7;
+  /*color: #1d1d1d;*/
+}
+.hero.ladakh .content h3 {
+  max-width: 500px;
+  margin: auto;
+  /*color: #ff9727;*/
+  /*color: #1d1d1d;*/
+  color: #f6f6f7;
+}
+
+.hero.ladakh .content h4 {
+  max-width: 500px;
+  margin: auto;
+  /*color: #ff9727;*/
+  color: #1d1d1d;
 }
 
 .hero.ladakh .content p {
   max-width: 1060px;
+  font-size: 45;
+  color: #f6f6f7;
+  /*font-weight: bolder;*/
+  /*font-size: 125%;*/
+
+  /*color: #ff9727;*/
+}
+
+.hero .header ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.hero .header ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
 }

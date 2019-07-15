@@ -46,7 +46,8 @@ body {
 }
 
 .hero .header {
-  padding-top: 24px;
+  padding: 12px 40px;
+  align-items: center;
 }
 
 
@@ -95,6 +96,16 @@ body {
     font-size: 44px;
     line-height: 52px;
   }
+}
+
+div#attaMemberLogo {
+  max-width: 100%;
+  padding: 0!important;
+  text-align: center;
+}
+
+div#attaMemberLogo img {
+  max-width: 240px!important;
 }
 
 

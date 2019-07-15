@@ -13,6 +13,7 @@ class Footer extends Component {
     return (
       <div className='footer'>
         <Container>
+          <div id="attaMemberLogo" data-orientation="horizontal"><script type="text/javascript" src="//members.adventuretravel.biz/members.js"></script></div>
           <div className='flex justify-content'>
             <div className='col'>
               <img src={LogoBlack} alt='Logo' />
@@ -20,17 +21,17 @@ class Footer extends Component {
             <div className='col social-icons'>
               <ul>
                 <li>
-                  <a href='https://google.com'>
+                  <a href='https://www.facebook.com/GreatGuidesCom' rel='facebook'>
                     <img src={facebook} alt='facebook' />
                   </a>
                 </li>
                 <li>
-                  <a href='https://google.com'>
+                  <a href='https://twitter.com/greatguidescom' rel='twitter'>
                     <img src={twitter} alt='twitter' />
                   </a>
                 </li>
                 <li>
-                  <a href='https://google.com'>
+                  <a href='https://www.instagram.com/greatguides' rel='instagram'>
                     <img src={instagram} alt='instagram' />
                   </a>
                 </li>
@@ -38,7 +39,7 @@ class Footer extends Component {
             </div>
             <div className='col'>
               <p className='copyright'>
-                Copyright © 2018 GreatGuides Corp. All rights reserved. <a href="https://www.greatguides.com/privacyPolicy">Privacy policy</a>
+                Copyright © 2018 GreatGuides Corp. All rights reserved. <a href="/privacyPolicy" target="_blank">Privacy policy</a>
               </p>
             </div>
           </div>

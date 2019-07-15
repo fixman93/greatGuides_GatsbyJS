@@ -28,6 +28,10 @@
   text-align: right;
 }
 
+.footer .copyright a {
+  color: gray;
+}
+
 @media (max-width: 576px) {
   .footer .flex {
     flex-flow: wrap;

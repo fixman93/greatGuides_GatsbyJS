@@ -1,7 +1,7 @@
 import React from "react"
 import Hero from "../components/ladakh/hero/hero"
 import SEO from "../components/seo"
-import Adventures from "../components/ladakh/adventures/adventures"
+import Adventures from "../components/ladakh/africa/africa"
 import Questions from "../components/ladakh/questions/questions"
 import Footer from "../components/ladakh/footer/footer"
 import "../style/ladakh.css"

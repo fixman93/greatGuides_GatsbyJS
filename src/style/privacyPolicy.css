@@ -1,0 +1,76 @@
+.container {
+  margin: auto;
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.privacy_wrapper {
+  padding: 45px 0;
+}
+
+.privacy_col {
+  padding: 30px;
+  background: #efefef;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: normal;
+}
+.privacy_col h2 {
+  text-transform: capitalize;
+  color: #333;
+  padding: 21px 0;
+  font-family: "Abril Fatface", cursive;
+}
+
+.profile_head {
+  text-transform: capitalize;
+  font-weight: 600;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #dfdfdf;
+  font-size: 26px;
+}
+
+.terms_head span {
+  background: #858789;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  margin-left: 20px;
+  padding: 6px 10px;
+}
+
+.privacy_col p {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.privacy_col h2 {
+  text-transform: capitalize;
+  color: #333;
+  padding: 21px 0;
+}
+
+.privacy_list {
+  margin: 15px 0;
+  padding: 0;
+}
+
+.privacy_list li {
+  display: block;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.privacy_list li span {
+  margin-bottom: 10px;
+  font-size: 18px;
+}

@@ -37,6 +37,7 @@ const Adventures = () => {
                 }
                 mainImage
                 guideImage
+                link
               }
             }
           }
@@ -53,7 +54,7 @@ const Adventures = () => {
             return (
               <AdventuresItem
                 key={i}
-                guideImage={items.item.mainImage}
+                mainImage={items.item.mainImage}
                 itemInfo={items}
               />
             )

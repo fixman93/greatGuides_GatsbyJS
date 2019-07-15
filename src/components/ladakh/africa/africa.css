@@ -153,7 +153,10 @@
 .adventures .review img {
   margin-right: 15px;
   vertical-align: middle;
-  width: 42px;
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  margin-bottom: 0;
 }
 
 

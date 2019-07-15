@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './adventures.css'
+import './peru.css'
 class AdventuresItem extends Component {
   render() {
     console.log('props', this.props.itemInfo.item)
@@ -8,14 +8,14 @@ class AdventuresItem extends Component {
       <article className='adventures-item'>
         <div className='card'>
           <div className='imageInfo'>
-            <img src={this.props.guideImage} alt='img1' className='main-img' />
+            <img src={this.props.mainImage} alt='img1' className='main-img' />
             <div className='review'>
               <div className='user'>
-                {/* <img src={userImg} alt='User' /> */}
+                <img src={this.props.itemInfo.item.guideImage} alt='User' />
               </div>
               <div className='rating'>
                 <b>{this.props.itemInfo.item.title}</b>
-                <ul>
+                {/* <ul>
                   <li>
                     <i className='fa fa-star' aria-hidden='true' /> {this.props.itemInfo.item.rating.stars}
                   </li>
@@ -25,14 +25,14 @@ class AdventuresItem extends Component {
                   <li>
                     <i className='fa fa-circle' aria-hidden='true' /> {this.props.itemInfo.item.rating.adventures} adventures
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>
           <div className='box'>
             <div className='status'>
-              <span>HIKING: </span>
-              <span>14 DAYS</span>
+              <span>{this.props.itemInfo.item.status.category}: </span>
+              <span>{this.props.itemInfo.item.status.date}</span>
             </div>
             <h2>{this.props.itemInfo.item.userName}</h2>
             <div className='place'>
@@ -43,7 +43,7 @@ class AdventuresItem extends Component {
             <div className='description'>
               <p>
                 {this.props.itemInfo.item.description1}
-                <a href='http://localhost'>Read More</a>
+                <a href={this.props.itemInfo.item.link} target="_blank">Read More</a>
               </p>
             </div>
             <div className='shop'>

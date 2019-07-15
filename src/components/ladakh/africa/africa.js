@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Container from '../../../common/container/Container';
-import AdventuresItem from './adventuresItem';
+import AdventuresItem from './africaItem';
 import { useStaticQuery, graphql } from "gatsby"
 
 
@@ -37,6 +37,7 @@ const Adventures = () => {
                 }
                 mainImage
                 guideImage
+                link
               }
             }
           }
@@ -44,17 +45,16 @@ const Adventures = () => {
       }
     `
   )
-  console.log('site', site.siteMetadata.rwander)
-  console.log('site', site.siteMetadata.peruItems)
+  console.log('site', site.siteMetadata.africanItems)
   return (
     <div className='adventures ladakh'>
       <Container>
         <div className='row'>
-          {site.siteMetadata && site.siteMetadata.peruItems ? site.siteMetadata.peruItems.map((items, i) => {
+          {site.siteMetadata && site.siteMetadata.africanItems ? site.siteMetadata.africanItems.map((items, i) => {
             return (
               <AdventuresItem
                 key={i}
-                guideImage={items.item.mainImage}
+                mainImage={items.item.mainImage}
                 itemInfo={items}
               />
             )
