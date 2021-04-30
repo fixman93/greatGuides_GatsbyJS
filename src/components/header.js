@@ -13,7 +13,7 @@ const Header = () => (
       <div className='header flex justify-content'>
         <a href="/" target="_blank"><img
           src={LogoBlack}
-          alt='Logo'
+          alt='Logos'
         /></a>
         <ul>
           <li>
